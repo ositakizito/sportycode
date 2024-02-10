@@ -1,13 +1,93 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--bg);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --bghead: #EB1F27;
+  --white: #fff;
+  --gren: #0D9737;
+  --greenText: #32CE62;
+  --gray: #9CA0AB;
+  --bg: #f0f0f0;
+  --bg2: #181820;
+  --line: rgb(80, 79, 79);
+  --black: #000;
+}
+
+
+.sportycode {
+  background-color: var(--bghead);
+  position: sticky;
+  top: 0;
+  height: 60px;
+  z-index: 999;
+  display: flex;
+}
+
+.sportycode .sportyy {
+  position: relative;
+  margin-top: 7px;
+  right: 15px;
+}
+
+.sportycode .sportyy button {
+  margin: 5px;
+  width: 50px;
+  padding: 5px;
+  font-size: 20px;
+  background-color: unset;
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+.sportycode img {
+  width: 40%;
+  position: relative;
+  left: 15px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.flex-container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.flex-container>.sportycover {
+  width: 42%;
+  background-color: white;
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.flex-container button {
+  background-color: unset;
+  border: none;
+  outline: none;
+}
+.sportycodeimg img{
+ width: 100%;
+ position: relative;
+
+}
+.sportycodeimg button{
+ border: none;
+ margin: 10px;
+ outline: none;
+ background-color: unset;
+
+}
+.flex-container .sportycover .sportycovername{
+  font-size: 16px;
+  color: var(--black);
 }
