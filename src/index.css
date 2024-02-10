@@ -89,4 +89,5 @@ body {
 .flex-container .sportycover .sportycovername{
   font-size: 16px;
   color: var(--black);
+  font-family: 'Poppins';
 }
